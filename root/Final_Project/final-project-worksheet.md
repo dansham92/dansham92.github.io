@@ -6,9 +6,9 @@ Use this section to describe your final project and perhaps any links to relevan
 
 | Site Url        | Desired Features           | 
 | ------------- |-------------| 
-| [GeneralAssembly](https://generalassemb.ly/)| - layout of the start learning section <br> - layout of the choose your path section | 
-|  |   |  
-|  |   |   
+| [TAW](http://taw.net/)| - use there format, but enhance more graphically | 
+| [Nest](https://nest.com/)| - incorporate there simple, modern design  |
+
 
 ## Wireframes
 
@@ -24,9 +24,9 @@ Include wireframes for all pages included in the site including:
 
 ## MVP 
 
-Include the full list of features that you will implement as part of your site's MVP. 
+- A website based on an app called iDEN. It will explain the purpose of the app and advertise the app and its functions.
 
 ## POST MVP
 
-Include the full list of features that you are considering for your site's POST MVP.
+-Include beta formats of website features such as messaging, video chatting, and future PTT website features implemented.
 
