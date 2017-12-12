@@ -7,10 +7,11 @@
 }
 
 body {
-    font-family: 'Lato',sans-serif;
+    font-family: 'Quicksand',sans-serif;
     font-size: 16px;
     line-height: 1.75em;
     color: #000;
+    margin: auto 0;
 }
 footer {
     clear: both;
@@ -23,6 +24,7 @@ div {
 
 a, a:link {
     text-decoration: none;
+    color: #707070;
 }
 
 ul li {
@@ -74,7 +76,7 @@ header.top .home h1 a {
     height: 54px;
     text-indent: -9999px;
     outline: none;
-    background-image: url(https://res.cloudinary.com/dasam/image/upload/v1511902492/idenlogo_fjwpw6.png);
+    background-image: url(http://res.cloudinary.com/dasam/image/upload/c_scale,h_54,q_auto:best,w_82/v1511902492/idenlogo_fjwpw6.png);
     background-repeat: no-repeat;
 }
 
@@ -88,7 +90,6 @@ header.top .bar {
 }
 
 header.top .bar ul {
-    margin: 0;
     padding: 35px 0 34px 0;
     background: #000;
     line-height: 1em;
@@ -99,6 +100,7 @@ header.top .bar ul {
 
 ul.extention {
     list-style-type: square;
+    margin: 8px;
 }
 
 header.top .bar ul li {
@@ -106,7 +108,7 @@ header.top .bar ul li {
     margin: 0 0 0 60px;
     padding: 0;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 16.5px;
     line-height: 1em;
     letter-spacing: 0.05em;
 }
@@ -141,10 +143,9 @@ div.search #search-icon {
     transition: opacity 0.3s ease-in-out;
     width: 20px;
     height: 20px;
-    background-image: url("search.png");
+    background-image: url(http://res.cloudinary.com/dasam/image/upload/c_scale,h_20,w_20/v1511902585/search_hce4k0.png);
     background-repeat: no-repeat;
-
-  margin: 0 0 0 20px;
+    margin: 0 0 0 20px;
     padding: 0;
     display: inline-block;
     text-transform: uppercase;
@@ -156,6 +157,7 @@ section.maine {
     width: 1080px;
     margin: 0 auto;
     padding: 54px;
+    background-color: #6cf;
 }
 
 div.describe {
