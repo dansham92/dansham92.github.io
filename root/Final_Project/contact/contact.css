@@ -162,10 +162,13 @@ div.describe {
 }
 
 form {
-    /*width: 1080px;*/
-    margin: 100px;
-    padding: 54px;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 260px;
     background-color: #6cf;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 
 footer.main nav {
