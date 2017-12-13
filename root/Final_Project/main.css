@@ -164,9 +164,7 @@ div.describe {
     border-bottom: 1px solid #DDD;
     margin: 54px 0;
     padding-bottom: 10px;
- /*   display: flex;
-    justify-content: center;
-    align-items: center;*/
+    text-align: center;
 }
 
 footer.main nav {
