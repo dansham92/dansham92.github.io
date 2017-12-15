@@ -1,0 +1,230 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+body {
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+    color: #000;
+    margin: auto 0;
+}
+footer {
+    clear: both;
+    background-color: #000;
+}
+
+div {
+    display: block;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: #707070;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.25em;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    display: block;
+    word-wrap: break-word;
+}
+
+p {
+    margin: 27px 0 0;
+    padding: 0;
+}
+
+header.top {
+    width: 1600px;
+    margin: 0 auto;
+    background: #000;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -800px;
+    display: block;
+}
+
+header.top .home {
+    float: left;
+    width: 112px;
+}
+
+header.top .home h1 {
+    line-height: 1em;
+    margin: 24px 0 0 30px;
+    
+}
+
+header.top .home h1 a {
+    display: block;
+    height: 54px;
+    text-indent: -9999px;
+    outline: none;
+    background-image: url(http://res.cloudinary.com/dasam/image/upload/c_scale,h_54,q_auto:best,w_82/v1511902492/idenlogo_fjwpw6.png);
+    background-repeat: no-repeat;
+}
+
+header.top .bar {
+    float: left;
+    width: auto;
+    width: 1200px;
+    margin: 0;
+    padding: 35px 0 0 0;
+    padding: 0;
+}
+
+header.top .bar ul {
+    padding: 35px 0 34px 0;
+    background: #000;
+    line-height: 1em;
+    list-style-type: none;
+    font-size: 0;
+    position: relative;
+}
+
+ul.extention {
+    list-style-type: square;
+    margin: 8px;
+}
+
+header.top .bar ul li {
+    display: inline-block;
+    margin: 0 0 0 60px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 16.5px;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+}
+
+div.search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+div.search #search-icon {
+    display: block;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    appearance: normal;
+    -moz-appearance: normal;
+    -webkit-appearance: normal;
+    box-shadow: none;
+    text-indent: -9999em;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -10px;
+    opacity: 0.3;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    width: 20px;
+    height: 20px;
+    background-image: url(http://res.cloudinary.com/dasam/image/upload/c_scale,h_20,w_20/v1511902585/search_hce4k0.png);
+    background-repeat: no-repeat;
+    margin: 0 0 0 20px;
+    padding: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 1em;
+}
+
+section.maine {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 260px;
+    background-color: #6cf;
+}
+
+div.describe {
+    border-bottom: 1px solid #DDD;
+    margin: 54px 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer.main nav {
+    text-align: center;
+}
+
+footer.main .secondary-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer.main .secondary-menu ul li {
+    margin: 0 0 0 20px;
+    padding: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 1em;
+}
+
+footer.main .secondary-menu ul li a {
+    color: #747474;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: all 0.15s cubic-bezier(0.645,0.045,0.355,1);
+    -moz-transition: all 0.15s cubic-bezier(0.645,0.045,0.355,1);
+    -ms-transition: all 0.15s cubic-bezier(0.645,0.045,0.355,1);
+    -o-transition: all 0.15s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.15s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+footer.main .social-menu {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 44px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 3em;
+}
+
+footer.main .social-menu ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+footer.main .social-menu ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+footer.main .social-menu ul li a {
+    display: block;
+    color: #fff;
+    padding-left: 38px;
+    -webkit-background-size: 45px auto;
+    -moz-background-size: 45px auto;
+    -o-background-size: 45px auto;
+    background-size: 45px auto;
+    line-height: 23px;
+    white-space: nowrap;
+}
