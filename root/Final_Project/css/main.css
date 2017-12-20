@@ -43,6 +43,10 @@ h1, h2, h3 {
     word-wrap: break-word;
 }
 
+h2 {
+    border-bottom: 10px;
+}
+
 p {
     margin: 27px 0 0;
     padding: 0;
@@ -157,7 +161,8 @@ main.maine {
     width: 1080px;
     margin: 0 auto;
     padding: 260px;
-    background-color: #6cf;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
 div.describe {
