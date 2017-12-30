@@ -95,7 +95,6 @@ header.top .home h1 a {
 header.top .bar {
     float: left;
     width: auto;
-    width: 1200px;
     margin: 0;
     padding: 35px 0 0 0;
     padding: 0;
@@ -220,6 +219,9 @@ footer.main .social-menu ul li a {
     body {
     font-size: 14px;
     }
+    header.top .home h1 a {
+    padding: 20px 0 0 0; 
+    }
     header.top .bar ul {
     padding: 25px 0 24px 0;
     }
@@ -228,6 +230,9 @@ footer.main .social-menu ul li a {
     margin-left: -600px;
     height: 78px;
     }
+    main.maine {
+
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -235,6 +240,9 @@ footer.main .social-menu ul li a {
     width: 1024px;
     margin-left: -512px;
     height: 68px;
+    }
+    header.top .bar ul {
+    padding: 20px 0 0 0;
     }
 }
 
