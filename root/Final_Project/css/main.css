@@ -54,6 +54,11 @@ img.one {
     padding-right: 60px;
 }
 
+img.two {
+    padding-top: 20px;
+    padding-left: 400px;
+}
+
 header.top {
     display: block;
     width: 1600px;
@@ -134,15 +139,17 @@ div.describe {
 }
 
 div.specs {
-    
+    background-color: #f5f5dc;
+    padding-bottom: 80px;
 }
 
 #feature {
-    float: left;
+    margin-left: 700px;
+
 }
 
 #require {
-    float: right;
+    margin-top: -180px;
 }
 
 footer.main nav {
