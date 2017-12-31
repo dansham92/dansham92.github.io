@@ -7,7 +7,6 @@ body {
 }
 
 footer {
-    clear: both;
     background-color: #000;
 }
 
@@ -187,8 +186,6 @@ footer.main .social-menu {
     text-transform: uppercase;
     font-size: 15px;
     margin-top: 30px;
-    width: 100%;
-    overflow: hidden;
     padding-bottom: 35px;
 }
 
@@ -231,7 +228,19 @@ footer.main .social-menu ul li a {
     height: 78px;
     }
     main.maine {
-
+    width: 1060px;
+    }
+    h2 {
+    padding-left: 0px;   
+    }
+    p.link {
+    margin-left: 434px;
+    }
+    img.two {
+    padding-left: 220px;
+    }
+    #feature {
+    margin-left: 600px;
     }
 }
 
@@ -239,10 +248,26 @@ footer.main .social-menu ul li a {
     header.top {
     width: 1024px;
     margin-left: -512px;
-    height: 68px;
+    
     }
     header.top .bar ul {
     padding: 20px 0 0 0;
+    }
+    main.maine {
+    width: 882px;
+    }
+    h2{
+    padding-left: 90px;
+    padding-top: 10px;
+    }
+    p.link {
+        margin-left: 340px;
+    }
+    img.two {
+        padding-left: 140px;
+    }
+    #feature {
+        margin-left: 500px;
     }
 }
 
@@ -250,10 +275,30 @@ footer.main .social-menu ul li a {
     header.top {
     width: 768px;
     margin-left: -384px;
+    height: 40px;
+    }
+    header.top .bar ul {
+    padding: 20px 0 0 0;
+    }
+    main.maine {
+    width: 882px;
+    }
+    h2{
+    padding-left: 90px;
+    padding-top: 10px;
+    }
+    p.link {
+        margin-left: 340px;
+    }
+    img.two {
+        padding-left: 140px;
+    }
+    #feature {
+        margin-left: 500px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
     header.top {
 
     }
