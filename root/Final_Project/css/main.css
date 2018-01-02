@@ -67,8 +67,7 @@ header.top {
     position: fixed;
     top: 0;
     left: 50%;
-    margin-left: -800px;
-    
+    margin-left: -800px;    
 }
 
 header.top .home {
@@ -159,7 +158,6 @@ footer.main .secondary-menu ul {
     padding: 0;
     padding-top: 30px;
 }
-
 
 footer.main .secondary-menu ul li {
     margin: 0 0 0 20px;
@@ -310,7 +308,5 @@ footer.main .social-menu ul li a {
 }
 
 @media screen and (max-width: 780px) {
-    header.top {
-
-    }
+    
 }
